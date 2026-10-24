@@ -12,13 +12,13 @@ Incluye la configuración base del proyecto (`blog_project`) y una aplicación l
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/aadiazvallera/blog_django
 ```
 
 Entrar a la carpeta del proyecto:
 
 ```bash
-cd NOMBRE_DEL_REPOSITORIO
+cd blog_django
 ```
 
 Crear el entorno virtual:
