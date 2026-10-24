@@ -63,3 +63,18 @@ footer {
     color: #777;
     font-size: 0.9rem;
 }
+/* Lista de posts */
+.post {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.meta {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 0;
+}

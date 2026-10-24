@@ -1,0 +1,17 @@
+{% extends 'posts/base.html' %}
+
+{% block content %}
+<section class="lista-posts">
+    <h2>Publicaciones</h2>
+
+    {% for post in posts %}
+    <article class="post">
+        <h3>{{ post.titulo }}</h3>
+        <p class="meta">Por {{ post.autor }} · {{ post.fecha_creacion|date:"d/m/Y" }} · {{ post.get_estado_display }}</p>
+        <p>{{ post.contenido }}</p>
+    </article>
+    {% empty %}
+    <p>Todavía no hay publicaciones.</p>
+    {% endfor %}
+</section>
+{% endblock %}
